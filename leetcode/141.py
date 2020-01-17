@@ -13,7 +13,7 @@ class Solution:
             if p1 == p2:
                 return True
             p1 = p1.next
-            p2 = p2.next.next     
+            p2 = p2.next.next
         return False
 
 if __name__ == '__main__':
